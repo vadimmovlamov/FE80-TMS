@@ -1,1 +1,1 @@
-https://vadimmovlamov/github.com/FE80-TMS/Lesson1
+https://vadimmovlamov/github.com/FE80-TMS/Lesson1/
