@@ -1,0 +1,31 @@
+ .task__five{
+    width: 700px;
+    height: 500px;
+    background-color: greenyellow;
+}
+
+.block{
+    width: 455px;
+    height: 275px;
+    margin: 50px;
+    padding: 20px;
+
+    border: 5px solid white;
+}
+
+
+text{
+    background: #B2D235; /* Цвет фона */
+    padding: 40px; /* Поля вокруг текста */
+    outline: 2px solid #fff; /* Параметры рамки */
+    outline-offset: -20px; /* Смещение рамки */
+}
+
+table{
+    border-spacing:4px:
+}
+
+td{
+    background-color: #ececec;
+    padding: 0.5rem;
+}
