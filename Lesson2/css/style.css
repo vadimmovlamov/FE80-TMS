@@ -600,7 +600,7 @@ input[type=password]{
 /* _______ STYLISH AXURE DESIGN _______ */
 
 .baner {
-    background-image: url(../Lesson2/img/banner_parallax.png);
+    background-image: url(/Lesson2/img/banner_parallax.png);
 
     min-height: 400px;
     text-align: center;
