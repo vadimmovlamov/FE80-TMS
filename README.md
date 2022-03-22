@@ -1,2 +1,1 @@
-
-https://github.com/vadimmovlamov/FE80-TMS/blob/gh-pages/Lesson2/index.html
+https://vadimmovlamov.github.io/FE80-TMS/Lesson2/index.html
