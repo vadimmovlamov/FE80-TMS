@@ -38,109 +38,105 @@
          url('../fonts/open-sans-v28-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 
-.list{
-    margin-bottom: 100px;
+.tabs {
+    max-width: 1170px;
+    height: 540px;
+    font-size: 0;
 }
 
-.list__title{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 61px;
-    line-height: 73px;
-    height: 74px;
-    left: calc(50% - 787px/2 - 0.5px);
+#content-1, #content-2, #content-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs>input[type="radio"] {
+    display: none;
+}
+
+.tabs>div {
+    /* скрыть контент по умолчанию */
+    display: none;
+    border: 1px solid #e0e0e0;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+  /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3 {
+    display: block;
+}
+
+.tabs>label {
+    display: inline-block;
     text-align: center;
-}
-
-
-.tab input, 
-.tab-content { 
-    display: none; 
-}
-
-.tab {
-    width: 800px;
-    border-bottom: 1px solid #000000;
-}
-.tab-title {
-    margin-bottom: 27px;
-    margin-top: 15px;
-    display: block;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    padding: 2px 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
     cursor: pointer;
-}
-.tab-title::after {
-    content: '✔';
-    float: right;
+    position: relative;
+    top: 1px;
 }
 
-.tab :checked + .tab-title::after {
-    content: '−';
-}
-.tab :checked ~ .tab-content {
-    display: block;
+.tabs>label:not(:first-of-type) {
+    border-left: none;
 }
 
-
-
-.blog{
-    max-width: 1040px;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-
-    margin-bottom: 100px;
+.tabs>input[type="radio"]:checked+label {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
-.blog__item{
-    width: 333px;
-    height: 432px;
+.title__tab{
+    max-width: 570px;
+    height: 124px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 124px;
+    margin: 0 0 27px 0;
+    color: #000000;
 }
 
-.blog__title{
-    height: 66px;
+.subtitle__tab{
+    max-width: 570px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    color: #000000;
 }
 
-
-
-.shop{
-    max-width: 1240px;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-
-    margin-bottom: 100px;
+.download__btn{
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    font-weight: 600px;
+    font-size: 15px;
+    line-height: 20px;
+    border: none;
+    color: #FFFFFF;
+    opacity: 0.9;
+    cursor: pointer;
+    margin-top: 27px;
+}
+.download__btn:hover {
+    opacity: 1;
 }
 
-.shop__item{
-    width: 396px;
-    height: 491px;
-}
-
-.btn__down,
-.btn__up{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 276px;
-    height: 48px;
-    margin-top: 10px;
-}
-.shop__subtitle{
-    height: 21px;
-}
-
-.title__bottom{
-
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.shop_img{
-    width: 30px;
-    height: 30px;
+.contentload__img-tab{
+    max-width: 470px;
+    height: 500px;
 }
