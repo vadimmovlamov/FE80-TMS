@@ -161,15 +161,10 @@ body {
 }
 
 
-
-
-
-
 /* _______  Section intro _______*/
 .intro {
     height: 1026px;
-    background:  linear-gradient(rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5)), url(../img/banner.png) no-repeat center;
-    
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.png) no-repeat center;
     background-size: cover;
     padding-top: 283px;
 }
@@ -668,7 +663,7 @@ td:active{
     font-size: 50px;
 }
 
-/* КАК СДЕЛАТЬ ЧТОБЫ ПРИ НАВЕДЕНИИ НА ОДИН ОБЪЕКТ МЕНЯЛСЯ ДРУГОЙ???? */
+
 /*  
 
 
@@ -812,17 +807,13 @@ ul:nth-child(2) {
 
 
 
-
-
 /* _______ STYLISH AXURE DESIGN _______ */
 
 .baner {
-    background: url(../img/banner_parallax.png);
+    background: url(../img/banner_parallax.png) no-repeat center;
     min-height: 400px;
     text-align: center;
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -1341,24 +1332,6 @@ input[type=contact__password] {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .block{
         text-align: center;
     }
@@ -1483,7 +1456,7 @@ input[type=contact__password] {
     }
 
     .baner {
-        background: url(../img/bg__baner320px.png);
+        background: url(../img/bg__baner320px.png) no-repeat center;
         min-height: 358px;
     }
     
