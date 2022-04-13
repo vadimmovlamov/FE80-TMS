@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>AXIT</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="wrapper__nav">
+        <div class="wrapper">
             <div class="header__wrapper">
                 <div class="header__logo">
                     <a href="/" class="header__logo-link">
                         <img src="./img/logo-header.png" alt="">
                     </a>
                 </div>
-
+    
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
@@ -37,12 +37,6 @@
                             <a href="#5" class="header__link">Contact</a>
                         </li>
                     </ul>
-
-                    <!-- <div class="header__nav-close">
-                        <span class="header__nav-close-line"></span>
-                        <span class="header__nav-close-line"></span>
-                    </div> -->
-
                 </nav>
 
                 <div class="header__burger burger">
@@ -53,96 +47,102 @@
             </div>
         </div>
     </header>
+
     <main class="main">
         <section class="intro">
             <div class="wrapper">
-                <div class="wrapper__title">
-                    <div class="intro__logo">
-                        <img src="./img/logo-intro.png" alt="">
+                <div class="wrapper__intro">
+                    <div class="wrapper__title">
+                        <div class="intro__logo">
+                            <img src="./img/logo-intro.png" alt="">
+                        </div>
+    
+                        <h1 class="intro__title">
+                            MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+                        </h1>
+    
+                        <hr size="1" class="line" />
+    
+                        <h5 class="intro__subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </h5>
+    
+                        <button class="intro__btn" type="submit" value="download">
+                            Download
+                        </button>
                     </div>
-
-                    <h1 class="intro__title">
-                        MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
-                    </h1>
-                    <hr align="left" width="170" size="1" color="#FFFFFF" class="line" />
-
-                    <h5 class="intro__subtitle">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </h5>
-
-                    <button class="btn" type="submit" value="download">
-                        Download
-                    </button>
-                </div>
-
-                <div class="wrapper__form">
-                    <h4 class="text__title">Try your <span style="color: #EC7979;">free</span> trial today</h4>
-                    <div class="container">
-                        <input type="text" placeholder="Name" name="name" required>
-                        <input type="text" placeholder="Email" name="email" required>
-                        <input type="password" placeholder="Password" name="psw" required>
+    
+                    <div class="intro__form">
+                        <h4 class="text__title">Try your <span style="color: #EC7979;">free</span> trial today</h4>
+                        <div class="container">
+                            <input type="text" placeholder="Name" name="name" required>
+                            <input type="email" placeholder="Email" name="email" required>
+                            <input type="password" placeholder="Password" name="psw" required>
+                        </div>
+    
+                        <button class="reg__btn" type="submit">
+                            Get Started
+                        </button>
                     </div>
-
-                    <button class="reg__btn" type="submit">
-                        Get Started
-                    </button>
                 </div>
             </div>
         </section>
 
         <section class="social">
             <div class="wrapper">
-                <div class="social__title">
-                    <h4 class="social__title-main">social media</h4>
-                    <h5 class="social__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        bibendum laoreet.</h5>
-                </div>
-
-                <div class="social__icon">
-                    <ul class="social__list">
-                        <li class="social__item">
-                            <a href="https://www.facebook.com/" class="social__link">
-                                <img src="./img/svg/facebook_icon.png" alt="">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="https://twitter.com/" class="social__link">
-                                <img src="./img/svg/twitter_icon.png" alt="">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="https://www.linkedin.com/in/vadim-movlamov-b81b5b202/" class="social__link">
-                                <img src="./img/svg/linkedin_icon.png" alt="">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="https://www.pinterest.com/" class="social__link">
-                                <img src="./img/svg/pinterest_icon.png" alt="">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="https://www.instagram.com/invites/contact/?i=i7l5vq5l4q8y&utm_content=md0ey5j/"
-                                class="social__link">
-                                <img src="./img/svg/instagram_icon.png" alt="">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="https://github.com/vadimmovlamov/" class="social__link">
-                                <img src="./img/svg/github_icon.png" alt="">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="https://vadimmovlamov.github.io/rsschool-cv/index.html" class="social__link">
-                                <img src="./img/svg/rss_icon.png" alt="">
-                            </a>
-                        </li>
-                    </ul>
+                <div class="wrapper__social">
+                    <div class="social__title">
+                        <h4 class="social__title-main">social media</h4>
+                        <h5 class="social__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet.</h5>
+                    </div>
+    
+                    <div class="social__icon">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="https://www.facebook.com/" class="social__link">
+                                    <img src="./img/svg/facebook_icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://twitter.com/" class="social__link">
+                                    <img src="./img/svg/twitter_icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.linkedin.com/in/vadim-movlamov-b81b5b202/" class="social__link">
+                                    <img src="./img/svg/linkedin_icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.pinterest.com/" class="social__link">
+                                    <img src="./img/svg/pinterest_icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.instagram.com/invites/contact/?i=i7l5vq5l4q8y&utm_content=md0ey5j/"
+                                    class="social__link">
+                                    <img src="./img/svg/instagram_icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://github.com/vadimmovlamov/" class="social__link">
+                                    <img src="./img/svg/github_icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://vadimmovlamov.github.io/rsschool-cv/index.html" class="social__link">
+                                    <img src="./img/svg/rss_icon.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="tabs__form">
-            <div class="wrapper__tabs">
+            <div class="wrapper">
                 <div class="tabs">
                     <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
                     <label for="tab-btn-1">TAB 1</label>
@@ -276,13 +276,13 @@
         </section>
 
         <section class="design">
-            <div class="design__wrapper">
+            <div class="wrapper">
                 <div class="design__head">
                     <h2 class="design__title">
                         why this is awesome
                     </h2>
 
-                    <hr align="center" width="170px" size="1px" solid color="#EC7979" />
+                    <hr class="line" />
 
                     <h5 class="design__subtitle">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -330,7 +330,7 @@
                             pricing options
                         </h2>
 
-                        <hr align="center" width="170px" size="1px" solid color="#EC7979" />
+                        <hr size="1" class="line" />
 
                         <h5 class="design__subtitle">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -339,9 +339,9 @@
 
                     <div class="price">
                         <table>
-                            <tr height='60'><td class="frst__row">basic</td></tr>
-                            <tr height='100'><td class="sec__row">$10</td></tr>
-                            <tr><td class="frd__row">free for life</td></tr>
+                            <tr><td class="first__row">basic</td></tr>
+                            <tr><td class="second__row">$10</td></tr>
+                            <tr><td class="third__row">free for life</td></tr>
                             <tr><td>1 gb of space</td></tr>
                             <tr><td>1 gb of space</td></tr>
                             <tr><td>1 gb of space</td></tr>
@@ -351,9 +351,9 @@
                         </table>
     
                         <table class="table__center">
-                            <tr height='60'><td class="frst__row">optima</td></tr>
-                            <tr height='100'><td class="sec__row">$20</td></tr>
-                            <tr><td class="frd__row">free for life</td></tr>
+                            <tr><td class="first__row">optima</td></tr>
+                            <tr><td class="second__row">$20</td></tr>
+                            <tr><td class="third__row">free for life</td></tr>
                             <tr><td>2 gb of space</td></tr>
                             <tr><td>2 gb of space</td></tr>
                             <tr><td>2 gb of space</td></tr>
@@ -363,9 +363,9 @@
                         </table>
 
                         <table>
-                            <tr height='60'><td class="frst__row">pro</td></tr>
-                            <tr height='100'><td class="sec__row">$30</td></tr>
-                            <tr><td class="frd__row">free for life</td></tr>
+                            <tr><td class="first__row">pro</td></tr>
+                            <tr><td class="second__row">$30</td></tr>
+                            <tr><td class="third__row">free for life</td></tr>
                             <tr><td>3 gb of space</td></tr>
                             <tr><td>3 gb of space</td></tr>
                             <tr><td>3 gb of space</td></tr>
@@ -378,129 +378,76 @@
             </div>
         </section>
 
-
-
-        <!-- <section class="pricing">
-            <div class="wrapper">
-                <div class="pricing__wrapper">
-                    <div class="pricing__head">
-                        <h2 class="design__title">
-                            pricing options
-                        </h2>
-
-                        <hr align="center" width="170px" size="1px" solid color="#EC7979" />
-
-                        <h5 class="design__subtitle">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </h5>
-                    </div>
-
-                    <div class="price">
-                        <ul class="price__block">
-                            <li>basic</li>
-                            <li>$10</li>
-                            <li>free for life</li>
-                            <li>1 gb of space</li>
-                            <li>2 gb of space</li>
-                            <li>3 gb of space</li>
-                            <li>4 gb of space</li>
-                            <li>5 gb of space</li>
-                            <li>6 gb of space</li>
-                        </ul>
-
-                        <ul class="price__block">
-                            <li>optima</li>
-                            <li>$20</li>
-                            <li>free for life</li>
-                            <li>1 gb of space</li>
-                            <li>2 gb of space</li>
-                            <li>3 gb of space</li>
-                            <li>4 gb of space</li>
-                            <li>5 gb of space</li>
-                            <li>6 gb of space</li>
-                        </ul>
-
-                        <ul class="price__block">
-                            <li>pro</li>
-                            <li>$30</li>
-                            <li>free for life</li>
-                            <li>1 gb of space</li>
-                            <li>2 gb of space</li>
-                            <li>3 gb of space</li>
-                            <li>4 gb of space</li>
-                            <li>5 gb of space</li>
-                            <li>6 gb of space</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-
-
-
-
-
-
-
         <section class="reviews">
             <div class="wrapper">
                 <div class="reviews__wrapper">
-                    <div class="reviews__head">
+                    <div class="pricing__head">
                         <h2 class="design__title">
                             what our customers are saying
                         </h2>
-
-                        <hr align="center" width="170px" size="1px" solid color="#EC7979" />
-
+        
+                        <hr class="line" />
+        
                         <h5 class="design__subtitle">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </h5>
                     </div>
 
                     <div class="reviews__block">
-                        <h5 class="speech">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita
-                            repellat similique odio aspernatur ex, architecto eaque quo suscipit.
-                        </h5>
-                        <h5 class="speech">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita
-                            repellat similique odio aspernatur ex, architecto eaque quo suscipit.
-                        </h5>
-                        <h5 class="speech">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita
-                            repellat similique odio aspernatur ex, architecto eaque quo suscipit.
-                        </h5>
-                    </div>
-
-                    <div class="reviews__info">
-                        <div class="reviews__content">
-                            <div class="reviews__img">
-                                <img src="/Lesson2/img/svg/Cust1.png" alt="">
+                        <div class="content__customer1">
+                            <div class="blur">
+                                <h5 class="coment">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita
+                                    repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                                </h5>
+                                <div class="rect"></div>
                             </div>
-                            <div class="reviews__title">
-                                <h4>Davis Rhiel Madsen</h4>
-                                <h5>Manager</h5>
+                            <div class="reviews__content">
+                                <div class="reviews__img">
+                                    <img src="/Homework8/img/Cust1.png" alt="">
+                                </div>
+                                <div class="reviews__title">
+                                    <h4>Davis Rhiel Madsen</h4>
+                                    <h5>Manager</h5>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="reviews__content">
-                            <div class="reviews__img">
-                                <img src="/Lesson2/img/svg/Cust2.png" alt="">
+                    
+                        <div class="content__customer2">
+                            <div class="blur">
+                                <h5 class="coment">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita
+                                    repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                                </h5>
+                                <div class="rect"></div>
                             </div>
-                            <div class="reviews__title">
-                                <h4>Jaydon Rosser</h4>
-                                <h5>Manager</h5>
+                            <div class="reviews__content">
+                                <div class="reviews__img">
+                                    <img src="/Homework8/img/Cust2.png" alt="">
+                                </div>
+                                <div class="reviews__title">
+                                    <h4>Jaydon Rosser</h4>
+                                    <h5>Manager</h5>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="reviews__content">
-                            <div class="reviews__img">
-                                <img src="/Lesson2/img/svg/Cust3.png" alt="">
+                    
+                        <div class="content__customer3">
+                            <div class="blur">
+                                <h5 class="coment">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita
+                                    repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                                </h5>
+                                <div class="rect"></div>
                             </div>
-                            <div class="reviews__title">
-                                <h4>Cooper Dorwart</h4>
-                                <h5>Manager</h5>
+                            <div class="reviews__content">
+                                <div class="reviews__img">
+                                    <img src="/Homework8/img/Cust3.png" alt="">
+                                </div>
+                                <div class="reviews__title">
+                                    <h4>Cooper Dorwart</h4>
+                                    <h5>Manager</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -508,47 +455,32 @@
             </div>
         </section>
 
-
-<!--         <div class="sim-slider">
-            <ul class="sim-slider-list" id="slider_1">
-                <li class="sim-slider-element"><img src="assets/img/welcome-slider/1.jpg" alt="1">
-                </li>
-                <li class="sim-slider-element"><img src="assets/img/welcome-slider/2.jpg" alt="2">
-                </li>
-                <li class="sim-slider-element"><img src="assets/img/welcome-slider/3.jpg" alt="3">
-                </li>
-                
-            </ul>
-            <div class="sim-slider-dots">&larr;</div>
-            
-        </div> -->
-
-        
-
         <section class="baner">
-            <h2 class="baner__title">
-                stylish axure design
-            </h2>
-
-            <hr align="left" width="170" size="1" color="#FFFFFF" />
-
-            <h5 class="baner__subtitle">
-                Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
-            </h5>
-
-            <button class="baner__btn" type="submit">
-                download
-            </button>
+            <div class="wrapper">
+                <h2 class="baner__title">
+                    stylish axure design
+                </h2>
+    
+                <hr class="line" />
+    
+                <h5 class="baner__subtitle">
+                    Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
+                </h5>
+    
+                <button class="baner__btn" type="submit">
+                    download
+                </button>
+            </div>
         </section>
 
         <section class="contact">
-            <div class="contact__wrapper">
+            <div class="wrapper">
                 <div class="contact__head">
                     <h2 class="design__title">
                         contact us
                     </h2>
 
-                    <hr align="center" width="170px" size="1px" solid color="#EC7979" />
+                    <hr class="line" />
 
                     <h5 class="design__subtitle">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -558,7 +490,7 @@
                 <div class="contact__form">
                     <div class="contact__container">
                         <input type="contact__text" placeholder="Name" name="name" required>
-                        <input type="contact__text" placeholder="Email" name="email" required>
+                        <input type="contact__email" placeholder="Email" name="email" required>
                         <input type="contact__password" placeholder="Password" name="psw" required>
                     </div>
 
@@ -570,14 +502,12 @@
                 <button class="contact__btn" type="submit">
                     send message
                 </button>
-
             </div>
         </section>
-
     </main>
 
     <footer class="footer">
-        <div class="footer__wrapper">
+        <div class="wrapper">
             <div class="footer__icon">
                 <ul class="footer__list">
                     <li class="footer__item">
@@ -624,7 +554,6 @@
                 </h5>
             </div>
         </div>
-
     </footer>
 
 </body>

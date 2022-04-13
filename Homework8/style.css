@@ -441,3 +441,52 @@ hr{
 	z-index: 1;
 	transform: scale(1);
 }
+
+/* 
+.price {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1170px;
+    margin-top: 50px;
+}
+
+.price__block {
+    list-style-type: none;
+}
+
+.price__block li {
+    width: 370px;
+    height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    color: #86878B;
+    margin-top: 1px;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.price__block ul li:first-child {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.price__block ul li:nth-child(2) {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+ul li:nth-child(-n+3) {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+ */
