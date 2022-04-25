@@ -1,0 +1,146 @@
+.pricing {
+  background-color: #F5F5F5;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 79px 0 50px 0;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+table {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+table:last-child {
+  margin-right: 0;
+}
+
+.first__row,
+.second__row,
+.third__row {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+.first__row {
+  height: 60px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.second__row {
+  height: 100px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+td {
+  width: 370px;
+  height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878B;
+  margin-top: 1px;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+table:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+td:hover {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background: #BDBDBD;
+}
+
+td:active {
+  opacity: 0.8;
+  background: #a7603a;
+  color: #ffffff;
+}
+
+.second__row:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 50px;
+}
+
+@media (max-width: 1024px) {
+  .price {
+    padding: 49px 0 50px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  table {
+    margin-right: 20px;
+  }
+  .first__row {
+    height: 53px;
+  }
+  .second__row {
+    height: 88px;
+  }
+  td {
+    width: 300px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .pricing__head {
+    /* max-width: 288px; */
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .pricing__head h5 {
+    margin-bottom: 24px;
+  }
+  table {
+    margin: 0;
+    padding-bottom: 27px;
+  }
+  .table__center {
+    margin-top: 0;
+  }
+  td {
+    width: 288px;
+  }
+  table:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+/*# sourceMappingURL=pricing.css.map */
