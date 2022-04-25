@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wrapper{
+    max-width: 1510px;
+    padding: 0 15px;
+    grid-column-gap: 0;
+}
+
+.gallery__content{
+    display: grid;
+    grid-template-areas: "post-1 post-2 post-3 post-4"
+                        "post-5 post-6 post-3 post-7";
+    margin-top: 50px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+}
+/* .post{
+    height: 378px;
+} */
+.post-1 {
+    grid-area: post-1;
+}
+.post-2 {
+    grid-area: post-2;
+}
+.post-3 {
+    grid-area: post-3;
+}
+.post-4 {
+    grid-area: post-4;
+}
+.post-5 {
+    grid-area: post-5;
+}
+.post-6 {
+    grid-area: post-6;
+}
+.post-7 {
+    grid-area: post-7;
+}
+
