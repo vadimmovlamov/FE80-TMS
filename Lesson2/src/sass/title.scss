@@ -1,0 +1,24 @@
+$cblack:  #000000;
+$cred:  #86878B;
+$cwhite:  #FFFFFF;
+$ttransform: uppercase;
+$talign: center;
+
+
+@mixin title ($cblack, $ttransform, $talign){
+    height: 150px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: $talign;
+    text-transform: $ttransform;
+    color: $cblack;
+}
+
+@mixin subtitle {
+    text-align: $talign;
+    margin-top: 40px;
+    color: $cred;
+}

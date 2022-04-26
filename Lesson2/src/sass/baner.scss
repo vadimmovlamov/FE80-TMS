@@ -1,0 +1,125 @@
+@mixin cwhite {
+    color: #FFFFFF;
+}
+
+
+
+.baner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner_parallax.png) no-repeat center;
+    min-height: 442px;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 64px;
+
+    .design__title {
+        height: 150px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        @include cwhite;
+    }
+
+    .design__subtitle {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        @include cwhite;
+    }
+}
+
+.baner__btn {
+    width: 370px;
+    height: 58px;
+    margin-top: 73px;
+    transition-duration: 0.4s;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    @include cwhite;
+
+    &:hover {
+        color: #EC7979;
+        border: 2px solid #EC7979;
+    }
+
+    &:active{
+        /* @include font; */
+        background: #AB4949;
+        border: 2px solid #AB4949;
+    }
+}
+
+.baner {
+    .line{
+        border: 1px solid #FFFFFF;
+    }
+}
+
+@media (max-width:1024px){
+    .baner {
+        min-height: 358px;
+        margin-top: 57px;
+
+        .design__title {
+            font-size: 24px;
+            line-height: 120px;
+            margin-top: 57px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .design__subtitle {
+            margin-top: 32px;
+            line-height: 21px;
+        }
+    }
+
+    .baner__btn {
+        width: 318px;
+        height: 58px;
+        font-size: 18px;
+        margin-top: 32px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:320px){
+    .baner {
+        background: url(../img/bg__baner320px.png) no-repeat center;
+        height: 358px;
+        margin-top: 0;
+
+        .design__title {
+            height: 120px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .design__subtitle {
+            margin-top: 16px;
+            line-height: 16px;
+            font-size: 14px;
+        }
+
+        .line {
+            margin-bottom: 16px;
+        }
+
+        .wrapper{
+            height: 358px;
+        }
+    }
+    .baner__btn {
+        max-width: 287px;
+        height: 50px;
+        font-size: 18px;
+        margin: 0;
+    }
+}
