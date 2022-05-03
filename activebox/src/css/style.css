@@ -140,7 +140,7 @@ ul, li{
         position: fixed;
         top: 0;
         left: 0;
-        background: url(img/intro-bg.png) no-repeat center;
+        background: url(../img/intro-bg.png) no-repeat center;
         background-size: cover;
         z-index: 10;
         padding-top: 84px;
@@ -183,7 +183,7 @@ ul, li{
 
 .intro{
     /* min-height: 747px; */
-    background: url(img/intro-bg.png) no-repeat center;
+    background: url(../img/intro-bg.png) no-repeat center;
     background-size: cover;
     padding-top: 230px;
 }
@@ -613,12 +613,11 @@ ul, li{
 
 
 .footer{
-    background: url(img/footer.png) no-repeat center;
+    background: url(../img/footer.png) no-repeat center;
     background-size: cover;
 }
 .footer__wrapper{
-    background: url(img/footer.png) no-repeat center;
-
+    background: url(../img/footer.png) no-repeat center;
     display: flex;
     align-content: center;
     align-items: flex-start;
