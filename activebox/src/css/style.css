@@ -49,14 +49,8 @@ ul, li{
     border-bottom: 1px solid white;
     cursor: pointer;
 }
-/* .header__logo{
-    flex: 0 0 190px;
-}
-.header__logo img{
-    max-width: 100%;
-} */
 .header__list{
-    /* max-width: 670px; */
+    /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -68,8 +62,6 @@ ul, li{
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
-    /* padding-top: 41px; */
-    /* padding: 37px 0; */
     text-transform: uppercase;
 }
 .header__link{
@@ -89,8 +81,6 @@ ul, li{
 .header__active{
     background: #2C3154;
 }
-
-
 .header__burger{
     display: none;
     width: 24px;
@@ -133,8 +123,13 @@ ul, li{
         height: 56px;
         border: none;
     }
+    .header__logo a{
+        display: block;
+        width: 0;
+        height: auto;
+    }
     .header__logo img{
-        max-width: 130px;
+        width: 130px;
         height: 56px;
     }
     .header__burger{
@@ -160,14 +155,11 @@ ul, li{
         height: 63px;
         line-height: 63px;
         width: 100%;
-        /*margin-left: 0;  */
-        /*margin-bottom: 30px;  */
         text-align: start;
         padding: 0 20px;
     }
     .header__link{
-        font-size: 18px;/*  */
-        /*line-height: 42px;  */
+        font-size: 18px;
     }
     .header__nav-close{
         width: 24px;
@@ -184,7 +176,6 @@ ul, li{
         background-color: #fff;
         position: absolute;
         top: 50%;
-        /* transform: translateY(-50%); */
     }
     .header__nav-close-line:first-child{
         transform: translateY(-50%) rotate(45deg);
@@ -333,20 +324,20 @@ ul, li{
 .grid__content-work{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2px;
+    grid-gap: 0;
+
 }
-.worker{
-    cursor: pointer;
-}
-.worker__pic{
+/* .worker__pic{
     border: 2px solid #FFFFFF;
-}
+} */
 .worker {
     list-style:none;
     margin: 0 auto;
     width: 100%;
+    /* height: 280px; */
     text-align: center;
     padding: 0;
+    cursor: pointer;
 }
 .places__card {
     position: relative;
