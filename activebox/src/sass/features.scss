@@ -1,0 +1,42 @@
+@import 'fonts.scss';
+
+.features{
+    padding: 116px 0;
+}
+.grid__content-features{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 31px;
+    grid-row-gap: 89px;
+    text-align: center;
+}
+.grid__title{
+    @include title();
+    text-transform: uppercase;
+    color: #2D3033;
+    padding-top: 29px;
+    padding-bottom: 20px;
+}
+.grid__subtitle{
+    @include sub-title();
+    color: #6C7279;
+}
+.post img:hover{
+    animation: pulse 2s infinite;
+}
+
+@media (max-width: 1024px) {
+    .features{
+        padding: 80px 0;
+    }
+}
+@media (max-width: 768px) {
+    .features{
+        padding: 40px 0;
+    }
+    .grid__content-features{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 42px;
+    }
+}

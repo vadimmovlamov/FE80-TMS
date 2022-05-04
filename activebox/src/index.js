@@ -1,0 +1,10 @@
+import './sass/fonts.scss';
+import './sass/reset.scss';
+import './sass/header.scss';
+import './sass/intro.scss';
+import './sass/features.scss';
+import './sass/work.scss';
+import './sass/team.scss';
+import './sass/testimonials.scss';
+import './sass/download.scss';
+import './sass/footer.scss';

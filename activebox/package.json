@@ -1,0 +1,15 @@
+{
+  "name": "activebox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open"
+  },
+  "author": "Vadik Movlamov",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.51.0"
+  }
+}
