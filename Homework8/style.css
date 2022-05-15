@@ -1,20 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
-html {
-    box-sizing: border-box;
+html, body {
+    height: 100%;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-body {
-    background: #E8E8E8;
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px 10px;
 }
 
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 2;
+}
+
+.header__body{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__item {
+    width: 113.8px;
+    height: 76px;
+    list-style-type: none;
+    text-align: center;
+}
+.header__link {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 76px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header__item:hover{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: #EC7979;
+    cursor: pointer;
+}
+.header__item:active{
+    background: #AB4949;
+}
+
+.header__logo{
+    max-width: 100%;
+    z-index: 3;
+}
+.content{
+    padding-top: 80px;
+}
+.header__burger{
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .header__burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+
+    .header__burger span{
+        position: absolute;
+        background-color: #FFFFFF;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        top: 9px;
+        
+    }
+
+    .header__burger:before,
+    .header__burger:after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        background-color: #FFFFFF;
+    }
+    .header__burger:before{
+        top: 0;
+    }
+    .header__burger:after{
+        bottom: 0;
+    }
+    
+}
+
+.header__menu{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .form{
     display: flex;
     justify-content: space-between;
@@ -183,10 +315,10 @@ hr{
     border-radius: 49px;
     margin-top: 40px;
     margin-bottom: 66px;
-}
+} */
 
 /* _________CLOSE - fignya kakayato____________ */
-.close__forgot,
+/* .close__forgot,
 .close__private,
 .close__registr{
     position: absolute;
@@ -235,9 +367,9 @@ hr{
 .close__forgot::after,
 .close__registr::after {
 	transform: rotate(-45deg);
-}
+} */
 /* _____________________ */
-
+/* 
 .content__form{
     display: flex;
     flex-wrap: wrap;
@@ -272,10 +404,10 @@ hr{
     border-radius: 49px;
     margin-left: 24px;
 }
+ */
 
 
-
-/* ________________ */
+/* ________________ *//* 
 .content__customer1,
 .content__customer2,
 .content__customer3
@@ -421,9 +553,9 @@ hr{
 #content__customer2:checked ~ .controls label:nth-of-type(2),
 #content__customere3:checked ~ .controls label:nth-of-type(3) {
 	background: #ddd;
-}
+} */
 
-.slides {
+/* .slides {
 	height: inherit;
 	opacity: 0;
 	position: absolute;
@@ -440,9 +572,7 @@ hr{
 	opacity: 1;
 	z-index: 1;
 	transform: scale(1);
-}
-
-/* 
+} 
 .price {
     display: flex;
     justify-content: space-between;
