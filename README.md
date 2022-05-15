@@ -1,3 +1,6 @@
+Ссылка на homework 1:
+https://vadimmovlamov.github.io/FE80-TMS/script/index.html
+
 Ссылка на макет ACTIVEBOX:
 https://vadimmovlamov.github.io/FE80-TMS/activebox/src/index.html
 
