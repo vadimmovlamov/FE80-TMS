@@ -18,7 +18,7 @@ html, body {
     margin: 0 auto;
     padding: 0px 10px;
 }
-
+/* 
 .header{
     position: fixed;
     width: 100%;
@@ -135,6 +135,7 @@ html, body {
     top: 0;
     background-color: black;
 }
+ */
 
 
 
@@ -145,8 +146,7 @@ html, body {
 
 
 
-
-/* 
+ 
 .form{
     display: flex;
     justify-content: space-between;
