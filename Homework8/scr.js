@@ -5,6 +5,7 @@ function myFunction() {
     } else {
         x.type = "password";
     }
+<<<<<<< HEAD
 }
 
 new Swiper('.swiper-container', {
@@ -22,3 +23,6 @@ new Swiper('.swiper-container', {
         draggable: true
     },
 })
+=======
+}
+>>>>>>> d1cdf6c713040dd17b5aaf8bfd7ab214df63f575

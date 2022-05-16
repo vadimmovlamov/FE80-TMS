@@ -24,9 +24,9 @@ html {
     /* grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; */
 }
-/* .post{
+.post{
     height: 378px;
-} */
+}
 .post-1 {
     grid-area: post-1;
 }
