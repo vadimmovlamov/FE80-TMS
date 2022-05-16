@@ -1,0 +1,76 @@
+@import 'fonts.scss';
+$color-white:#FFFFFF;
+
+.intro{
+    background: url(../img/intro-bg-min.png) no-repeat center;
+    background-size: cover;
+    padding-top: 230px;
+}
+.intro__wrapper{
+    text-align: center;
+}
+.intro__title{
+    font-size: 64px;
+    text-transform: uppercase;
+    color: $color-white;
+    margin-bottom: 31px;
+}
+.intro__subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    color: $color-white;
+    margin-bottom: 80px;
+}
+.intro__btn{
+    width: calc(100% - 67%);
+    height: 80px;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #FF4343;
+    color: $color-white;
+    margin-bottom: 120px;
+
+    &:hover{
+        background: #E71414;
+    }
+    &:active{
+        background: #FF4343;
+    }
+}
+
+@media (max-width: 1024px) {
+    .intro{
+        padding-top: 257px;
+    }
+    .intro__title{
+        font-size: 48px;
+        margin-bottom: 61px;
+    }
+    .intro__subtitle{
+        font-size: 18px;
+        margin-bottom: 89px;
+    }
+    .intro__btn{
+        font-size: 24px;
+        margin-bottom: 126px;
+    }
+}
+@media (max-width: 768px) {
+    .intro{
+        padding-top: 106px;
+    }
+    .intro__title{
+        font-size: 36px;
+        margin-bottom: 33px;
+    }
+    .intro__subtitle{
+        font-size: 14px;
+        margin-bottom: 49px;
+    }
+    .intro__btn{
+        font-size: 24px;
+        margin-bottom: 52px;
+    }
+}
