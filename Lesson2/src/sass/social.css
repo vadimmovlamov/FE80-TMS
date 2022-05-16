@@ -1,0 +1,147 @@
+.social {
+  background-color: #F8EFEF;
+}
+
+.wrapper__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social__title {
+  max-width: 40%;
+}
+
+.social__title-main {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #333333;
+  padding: 18px 0 18px 0;
+  margin-bottom: 18px;
+}
+
+.social__subtitle {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #86878B;
+  margin-bottom: 18px;
+}
+
+.social__icon {
+  max-width: 60%;
+  padding: 38px 0 38px 0;
+}
+
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+
+.social__item {
+  margin-right: 25px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__item img {
+  width: 65px;
+}
+
+.social__item a {
+  height: 0;
+}
+
+@media (max-width: 1024px) {
+  .social__title-main {
+    font-size: 18px;
+    padding: 13px 0 13px 0;
+    margin-bottom: 13px;
+  }
+  .social__subtitle {
+    font-size: 14px;
+    margin-bottom: 13px;
+  }
+  .social__icon {
+    padding: 25px 0 16px 0;
+  }
+  .social__item {
+    margin-right: 21px;
+  }
+  .social__item img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 920px) {
+  .social__title {
+    max-width: 30%;
+  }
+  .social__icon {
+    max-width: 70%;
+  }
+  .social__item {
+    margin-right: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper__social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .social__title {
+    max-width: 100%;
+  }
+  .social__icon {
+    max-width: 100%;
+  }
+  .social__title-main {
+    font-size: 18px;
+    padding: 13px 0 13px 0;
+    margin: 31px 17px 13px 17px;
+  }
+  .social__subtitle {
+    font-size: 14px;
+  }
+  .social__icon {
+    padding: 32px 0 44px 0;
+  }
+  .social__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .social__item img {
+    width: 25px;
+  }
+}
+/*# sourceMappingURL=social.css.map */

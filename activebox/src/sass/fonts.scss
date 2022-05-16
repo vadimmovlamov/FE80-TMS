@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+
+@mixin title {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+}
+@mixin sub-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
