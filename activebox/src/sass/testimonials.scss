@@ -1,0 +1,80 @@
+@import 'fonts.scss';
+$color-white:#FFFFFF;
+.content__slide{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: #5C3249;
+}
+.slide__title{
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: capitalize;
+    color: $color-white;
+}
+.slide__subtitle{
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: $color-white;
+    padding-top: 15px;
+}
+.swiper-wrapper{
+    padding-bottom: 54px;
+}
+.swiper-pagination-bullet{
+    width: 14px;
+    height: 14px;
+    margin-right: 25px;
+    background: #5C3249;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, 
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet .swiper-pagination-bullet span{
+        margin-right: 25px;
+}
+
+@media (max-width: 1024px) {
+    .slide__title{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .slide__subtitle{
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    .swiper-wrapper{
+        padding-bottom: 44px;
+    }    
+}
+@media (max-width: 768px) {
+    .content__slide{
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .slide__title{
+        padding-top: 30px;
+    }
+    .slide__subtitle{
+        padding-top: 25px;
+        padding-bottom: 95px;
+    }
+    .swiper-wrapper{
+        padding-bottom: 54px;
+    }
+}

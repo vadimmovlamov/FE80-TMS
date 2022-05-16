@@ -1,0 +1,126 @@
+@import 'fonts.scss';
+$color-white:#FFFFFF;
+
+.footer{
+    background: url(../img/footer.png) no-repeat center;
+    background-size: cover;
+}
+.footer__wrapper{
+    background: url(../img/footer.png) no-repeat center;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 250px;
+    text-align: center;
+    padding-top: 71px;
+}
+.location,
+.footer__link,
+.footer__about{
+    width: 33%;
+}
+.footer__title{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: $color-white;
+}
+.footer__subtitle{
+    @include sub-title();
+    text-transform: capitalize;
+    color: $color-white;
+    padding-top: 30px;
+}
+.footer__copyright{
+    min-height: 90px;
+    text-align: center;
+    background: #2C3154;
+}
+.copyright__title{
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: $color-white;
+    padding-top: 18px;
+}
+.copyright__color{
+    color: #808080;;
+}
+.footer__link .social__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+.social__link-img{
+    margin-right: 27px;
+}
+.social__link-img:last-child{
+    margin-right: 0;
+}
+
+@media (max-width: 1024px) {
+    .footer__wrapper{
+        min-height: 180px;
+        padding-top: 46px;
+    }
+    .footer__title{
+        font-size: 14px;
+    }
+    .footer__subtitle{
+        font-size: 14px;
+        padding-top: 18px;
+    }
+    .social__link-img{
+        width: 33px;
+    }
+    .footer__link .social__link{
+        margin-top: 33px;
+    }
+    .social__link-img{
+        margin-right: 23px;
+    }
+    .footer__copyright{
+        min-height: 60px;
+    }
+    .copyright__title{
+        font-size: 14px;
+        padding-top: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .footer__wrapper{
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 34px;
+        min-height: 450px;
+    }
+    .location,
+    .footer__link,
+    .footer__about{
+        width: 100%;
+    }
+    .footer__subtitle{
+        padding: 34px 0;
+    }
+    .footer__copyright{
+        min-height: 90px;
+    }
+    .copyright__title{
+        padding-top: 21px;
+    }
+    .footer__link .social__link{
+        margin-top: 36px;
+    }
+}
+@media (max-width: 879px) {
+    .intro .intro__btn{
+        width: 280px;
+        height: 60px;
+    }
+    .download .intro__btn{
+        width: 280px;
+        height: 80px;
+    }
+}
