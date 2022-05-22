@@ -572,7 +572,28 @@ hr{
 	opacity: 1;
 	z-index: 1;
 	transform: scale(1);
+<<<<<<< HEAD
+}
+
+<<<<<<< HEAD
+
+
+.swiper-container {
+    width: 640px;  
+    height: 400px
+}
+  
+.swiper-slide {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+=======
+/* 
+=======
 } 
+>>>>>>> 8a5e0436d94019ef53183837ae14f51e6c04dad5
 .price {
     display: flex;
     justify-content: space-between;
@@ -620,3 +641,4 @@ ul li:nth-child(-n+3) {
     color: #FFFFFF;
 }
  */
+>>>>>>> d1cdf6c713040dd17b5aaf8bfd7ab214df63f575
